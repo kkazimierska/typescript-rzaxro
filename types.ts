@@ -15,7 +15,7 @@ export type ContractType = "contract" | "permanent";
 
 export type Employee = {
   "id": number;
-  "nationality": Nationality,
+  "nationality": Nationality;
   "departmentId": number;
   "keycardId": string;
   "account": string;

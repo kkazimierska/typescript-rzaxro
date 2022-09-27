@@ -1,6 +1,12 @@
-// Import stylesheets
-import './style.css';
+const myVar: string | number = 'hello world';
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+console.log(typeof myVar); // 👉️ "string"
+
+if (typeof myVar === 'string') {
+  console.log(myVar.toUpperCase()); // 👉️ "HELLO WORLD"
+}
+
+import { Employee } from './types'
+var Jacek: Employee({id:2});
+
+console.log(typeof Jacek.id)
