@@ -7,6 +7,3 @@ if (typeof myVar === 'string') {
 }
 
 import { Employee } from './types'
-var Jacek: Employee({id:2});
-
-console.log(typeof Jacek.id)
